@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>Resume</h1>
+
+    <h2>Suleiman Amin</h2>
+    <p><a href="{{ url_for('static', filename='files/resume.pdf') }}" download>📄 Download Resume (PDF)</a></p>
+    <p>📧 amin0066@algonquinlive.com | 📍 Ottawa, ON</p>
+    <h3>🎓 Computer Engineering Technology Student | Aspiring Software Developer / Data Analyst</h3>
+
+    <h3>Professional Summary</h3>
+    <p>Analytical and detail-oriented Computer Engineering Technology student with hands-on experience in object-oriented Java development, web technologies, data analysis, and Linux administration...</p>
+
+    <h3>Education</h3>
+    <p><strong>Algonquin College, Ottawa, ON</strong><br>Advanced Diploma – Computer Engineering Technology - Computing Science (2024 – Present)</p>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>Programming: Java, C, PHP, JavaScript, SQL</li>
+        <li>Web: HTML5, CSS3, JavaScript, PHP</li>
+        <li>Databases: PostgreSQL, MySQL, SQL, NoSQL</li>
+        <li>Data Analysis & Visualization: Power BI, Excel</li>
+        <li>Development Tools: Git, GitHub, VS Code</li>
+        <li>Operating Systems: Linux Ubuntu (CLI, shell scripting, package management, system configuration)</li>
+        <li>Networking: TCP/IP, UDP, Socket Programming</li>
+        <li>Other Skills: Technical Documentation, Team Collaboration, Communication</li>
+    </ul>
+
+    <h3>Project Experience</h3>
+    <ul>
+        <li><strong>Amazon Product Management System – Java</strong> (Algonquin College, Ottawa, ON)
+            <ul>
+                <li>Designed and implemented a small-scale object-oriented system to simulate product management operations.</li>
+                <li>Developed Java classes for handling inventory, orders, and customer data.</li>
+                <li>Addressed database design considerations and ensured system scalability.</li>
+            </ul>
+        </li>
+        <li><strong>Technical Report – Touch Screen Monitors</strong>
+            <ul>
+                <li>Researched and wrote a comprehensive technical report on various types of touchscreen monitors.</li>
+                <li>Highlighted core design, function, and industry use cases.</li>
+            </ul>
+        </li>
+        <li><strong>Student Leadership Program – Algonquin College</strong>
+            <ul>
+                <li>Completed structured leadership training to develop communication, coordination, and decision-making skills.</li>
+                <li>Managed team activities and supported peer success through collaborative leadership.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Work Experience</h3>
+    <ul>
+        <li><strong>Amazon Warehouse – Fulfillment Center Associate</strong> (Jul 2023 – Oct 2024 | Ottawa, ON)
+            <ul>
+                <li>Managed inventory accuracy by tracking and sorting shipments for optimized workflows.</li>
+                <li>Resolved logistical errors, contributing to timely order fulfillment.</li>
+                <li>Operated technology systems to locate and track products; troubleshot minor system errors under pressure.</li>
+                <li>Collaborated across teams to meet performance targets and adapt to dynamic warehouse environments.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Volunteer Experience</h3>
+    <ul>
+        <li>Way Finder – AC Day 1 (Sep 2024)</li>
+        <li>Receptionist – AC Open House (Nov 2024)</li>
+    </ul>
+
+    <h3>Certifications</h3>
+    <ul>
+        <li>Student Leadership Program – Algonquin College (May 2025)</li>
+        <li>Data Structures in Java – LinkedIn Learning (Jan 2025)</li>
+        <li>Working and Collaborating Online – LinkedIn Learning (Nov 2023)</li>
+        <li>Working with Computers and Devices – LinkedIn Learning (Jul 2023)</li>
+    </ul>
+</div>
+{% endblock %}

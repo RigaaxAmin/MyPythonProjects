@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>Projects</h1>
+
+    {% for project in projects %}
+    <div class="project-card">
+        <h2>{{ project.title }}</h2>
+        <p><strong>Tech Stack:</strong> {{ project.tech }}</p>
+        <p>{{ project.description }}</p>
+        {% if project.github %}
+        <p><a href="{{ project.github }}" target="_blank" rel="noopener">View on GitHub</a></p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Amazon Product Management System",
+    "description": "A Java-based inventory management app simulating Amazon product operations.",
+    "tech": "Java, OOP, File I/O",
+    "github": "https://github.com/RigaaxAmin/OOPAAssignment2"
+  },
+  {
+    "title": "CRM Desktop App (GTK in C)",
+    "description": "A lightweight customer management system built with GTK in C.",
+    "tech": "C, GTK, File Handling",
+    "github": "https://github.com/RigaaxAmin/C-Language/tree/main/CRM"
+  },
+  {
+    "title": "Resume Website (Flask)",
+    "description": "This personal website made with Flask and Python to showcase my resume and projects.",
+    "tech": "Python, Flask, HTML, CSS",
+    "github": "https://github.com/yourusername/resume-site"
+  }
+]
